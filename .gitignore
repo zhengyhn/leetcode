@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+*.txt
+
+*.class
+*.sln
+*.csproj
+*.mdb
+*.userprefs
+*.plist
+Properties/
+obj/
