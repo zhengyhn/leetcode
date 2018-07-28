@@ -49,6 +49,38 @@ class Solution {
       }
       return ret;
     }
+
+    vector<int> spiralOrder2(vector<vector<int>>& matrix) {
+      vector<int> ret;
+      if (matrix.size() <= 0) {
+        return ret;
+      }
+      int rowBegin = 0;
+      int rowEnd = matrix.size() - 1;
+      int colBegin = 0;
+      int colEnd = matrix[0].size() - 1;
+      while (rowBegin <= rowEnd && colBegin <= colEnd) {
+        for (int col = colBegin; col <= colEnd; ++col) {
+          ret.push_back(matrix[rowBegin][col]);
+        }
+        for (int row = rowBegin + 1; row <= rowEnd; ++row) {
+          ret.push_back(matrix[row][colEnd]);
+        }
+        if (rowBegin < rowEnd && colBegin < colEnd) {
+          for (int col = colEnd - 1; col >= colBegin; --col) {
+            ret.push_back(matrix[rowEnd][col]);
+          }
+          for (int row = rowEnd - 1; row > rowBegin; --row) {
+            ret.push_back(matrix[row][colBegin]);
+          }
+        }
+        ++rowBegin;
+        --rowEnd;
+        ++colBegin;
+        --colEnd;
+      }
+      return ret;
+    }
 };
 
 int main() {
@@ -60,7 +92,7 @@ int main() {
     { 4, 5, 6 },
     { 7, 8, 9 }
   };
-  ret = sln.spiralOrder(matrix);
+  ret = sln.spiralOrder2(matrix);
   for (int item: ret) {
     cout << item << " ";
   }
@@ -71,7 +103,7 @@ int main() {
     {5, 6, 7, 8},
     {9,10,11,12}
   };
-  ret = sln.spiralOrder(matrix);
+  ret = sln.spiralOrder2(matrix);
   for (int item: ret) {
     cout << item << " ";
   }
