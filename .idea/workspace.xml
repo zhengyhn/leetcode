@@ -64,11 +64,6 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
-  </component>
   <component name="ProjectId" id="1dDLqdgcayyXHRbpdV46o99iO4V" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -81,14 +76,14 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="slid&#9;FILE&#9;file:///Users/yuanhang/my-project/leetcode/sliding-puzzle/sliding-puzzle2.cpp&#10;sli&#9;FILE&#9;file:///Users/yuanhang/my-project/leetcode/sliding-puzzle/sliding-puzzle3.cpp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -389,7 +384,8 @@
       <workItem from="1577274643079" duration="18354000" />
       <workItem from="1577596877699" duration="6789000" />
       <workItem from="1577979094449" duration="2004000" />
-      <workItem from="1591954911988" duration="10337000" />
+      <workItem from="1591954911988" duration="10970000" />
+      <workItem from="1592910939936" duration="455000" />
     </task>
     <servers />
   </component>
@@ -401,38 +397,42 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="410" y="227" key="#xdebugger.evaluate/0.23.1280.777@0.23.1280.777" timestamp="1591961429271" />
-    <state width="1238" height="213" key="GridCell.Tab.0.bottom" timestamp="1591971265579">
+    <state width="1238" height="213" key="GridCell.Tab.0.bottom" timestamp="1592791237421">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591971265579" />
-    <state width="1238" height="213" key="GridCell.Tab.0.center" timestamp="1591971265578">
+    <state width="1238" height="213" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1592791237421" />
+    <state width="1238" height="213" key="GridCell.Tab.0.center" timestamp="1592791237419">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1591971265578" />
-    <state width="1238" height="213" key="GridCell.Tab.0.left" timestamp="1591971265577">
+    <state width="1238" height="213" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1592791237419" />
+    <state width="1238" height="213" key="GridCell.Tab.0.left" timestamp="1592791237419">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1591971265577" />
-    <state width="1238" height="213" key="GridCell.Tab.0.right" timestamp="1591971265578">
+    <state width="1238" height="213" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1592791237419" />
+    <state width="1238" height="213" key="GridCell.Tab.0.right" timestamp="1592791237420">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1591971265578" />
-    <state width="1238" height="213" key="GridCell.Tab.1.bottom" timestamp="1591971265276">
+    <state width="1238" height="213" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1592791237420" />
+    <state width="1238" height="213" key="GridCell.Tab.1.bottom" timestamp="1592791237422">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591971265276" />
-    <state width="1238" height="213" key="GridCell.Tab.1.center" timestamp="1591971265275">
+    <state width="1238" height="213" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1592791237422" />
+    <state width="1238" height="213" key="GridCell.Tab.1.center" timestamp="1592791237421">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1591971265275" />
-    <state width="1238" height="213" key="GridCell.Tab.1.left" timestamp="1591971265274">
+    <state width="1238" height="213" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1592791237421" />
+    <state width="1238" height="213" key="GridCell.Tab.1.left" timestamp="1592791237421">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1591971265274" />
-    <state width="1238" height="213" key="GridCell.Tab.1.right" timestamp="1591971265276">
+    <state width="1238" height="213" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1592791237421" />
+    <state width="1238" height="213" key="GridCell.Tab.1.right" timestamp="1592791237422">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="213" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1591971265276" />
+    <state width="1238" height="213" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1592791237422" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1592911035073">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1592911035073" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

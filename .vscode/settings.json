@@ -2,6 +2,7 @@
   "files.associations": {
     "ios": "cpp",
     "vector": "cpp",
-    "set": "cpp"
+    "set": "cpp",
+    "unordered_set": "cpp"
   }
 }

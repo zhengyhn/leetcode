@@ -40,3 +40,4 @@
 *.plist
 Properties/
 obj/
+*.dSYM
